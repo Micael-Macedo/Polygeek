@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #644AAD;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    font-size: 25px;
+    margin-right: 10px;
+}
+nav a{
+    color: #FF3364;
+}
+nav img{
+    width: 52px;
+    height: 52px;
+}
+
+.pagamentos img{
+    width: 32px;
+    height: 32px;
+}
