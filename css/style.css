@@ -9,6 +9,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #644AAD;
+    border-bottom: 5px solid #FF3364;
 }
 nav ul{
     display: flex;
@@ -16,9 +17,13 @@ nav ul{
 }
 nav li{
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 nav a{
+    color: white;
+    transition: 0.5s;
+}
+nav a:hover{
     color: #FF3364;
 }
 nav img{
@@ -29,4 +34,10 @@ nav img{
 .pagamentos img{
     width: 32px;
     height: 32px;
+}
+section{
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
