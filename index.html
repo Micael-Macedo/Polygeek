@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Polygeek</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="img/LogoPolygeek.png" alt=""></a></li>
-            </ul>
-            <ul>
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Sobre</a></li>
-            </ul>
-        </nav>
-        <section>
-            <h1>PolyGeek - Impressões em 3D</h1>
-            <h2>Você imagina, a gente imprime</h2>
-        </section>
-        <section>
-            <h2>Pagamento</h2>
-            <h3>A vista</h3>
-            <div class="pagamentos">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Polygeek</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
                 <ul>
-                    <li><img src="img/pix_logo.png" alt="pix logo" srcset="">PIX</li>
-                    <li><img src="img/boleto-icone.png" alt="Boleto">Boleto</li>
+                    <li><a href="index.html"><img src="img/LogoPolygeek.png" alt=""></a></li>
                 </ul>
-            </div>
-        </section>
-    </header>
-    <script src="js/script.js"></script>
-</body>
+                <ul>
+                    <li><a href="#Produtos">Produtos</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="encomenda.html">Encomendar</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1><span style="color: #644AAD;">Poly</span><span style="color: #FF3364;">Geek</span>  - Impressões em 3D</h1>
+                <h2>Você imagina, a gente imprime</h2>
+            </section>
+            <section>
+                <h2>Produtos</h2>
+                <div id="Produtos">
+                    <div class="cardsProdutos">
+                        <img src="img/MacacoButtler.webp" alt="">
+                        <div class="cardProdutosDescricao">
+                            <h3>Porta-anel Macaco Butler</h3>
+                            <p>Decoração, Utilitario</p>
+                            <p>R$00,00</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="cardsProdutos">
+                        <img src="img/ThanosFrontal.webp" alt="">
+                        <div class="cardProdutosDescricao">
+                            <h3>Busto Thanos - Marvel</h3>
+                            <p>Decoração</p>
+                            <p>R$00,00</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="redesSociais">
+                    <h2>Nos siga nas redes sociais</h2>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/polygeek3d/" target="_blank"><img src="img/instagramIcon.webp" alt="Clique aqui para entra no instagram do polygeek3d">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Pagamento</h2>
+                <h3>A vista</h3>
+                <div class="pagamentos">
+                    <ul>
+                        <li><img src="img/pix_logo.png" alt="pix logo" srcset="">PIX</li>
+                        <li><img src="img/boleto-icone.png" alt="Boleto">Boleto</li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <script src="js/script.js"></script>
+    </body>
+
 </html>
