@@ -47,10 +47,11 @@ section {
     text-align: center;
 }
 
-h2{
+h2 {
     margin: 40px 0;
 }
-#Produtos{
+
+#Produtos {
     width: 80%;
     display: flex;
     align-items: center;
@@ -58,6 +59,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .cardsProdutos {
     margin-top: 20px;
     display: flex;
@@ -70,14 +72,15 @@ h2{
     padding-top: 0;
     transition: 1s;
 }
+
 .cardsProdutos:hover {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     width: 320px;
     height: 430px;
-    border-radius: 4px;
-    shape-outside: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
     background-color: #644AAD;
     padding-top: 0;
     transition: 1s;
@@ -88,37 +91,67 @@ h2{
     height: 300px;
     border-radius: 5px 5px 0 0;
 }
-.cardProdutosDescricao{
+
+.cardProdutosDescricao {
     margin-top: 10px;
 }
-.redesSociais ul{
+.cardProdutosDescricao button{
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    background-color: #FF3364;
+    color: white;
+    transition: 0.5s;
+}
+.cardProdutosDescricao button:hover{
+    width: 85px;
+    height: 35px;
+    background-color: #FF3364;
+    color: white;
+}
+.redesSociais ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
-.redesSociais a{
+
+.redesSociais a {
     display: flex;
     align-items: center;
 }
-.redesSociais img{
+
+.redesSociais img {
     width: 32px;
     margin-right: 10px;
 }
+
 .pagamentos ul{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
+
 .pagamentos li{
     display: flex;
     align-items: center;
-    flex-direction: row;
-    text-align: right;
-    margin: 5px 10px;
+    margin-right: 20px;
+    
 }
+
 .pagamentos img {
     width: 32px;
     height: 32px;
+}
+
+.formOrcamento{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    justify-content: center;
+    align-items: center;
 }
